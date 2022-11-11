@@ -105,6 +105,7 @@ const POOLS_GOERLI: Pools = {
   ExcludedPoolTypes: ['Element', 'AaveLinear', 'Linear', 'ERC4626Linear', 'FX'],
   Stable: {
     AllowList: [
+      '0x93f06afc4d63bcf5a327d9390410c192f1c5ca69000200000000000000000010',
       '0x13acd41c585d7ebb4a9460f7c8f50be60dc080cd00000000000000000000005f',
       '0xb60e46d90f2de35f7062a27d3a98749414036d5d000200000000000000000061',
       '0xdcdd4a3d36dec8d57594e89763d069a7e9b223e2000000000000000000000062',
@@ -116,7 +117,9 @@ const POOLS_GOERLI: Pools = {
     ],
   },
   Investment: {
-    AllowList: [],
+    AllowList: [
+     '0x93f06afc4d63bcf5a327d9390410c192f1c5ca69000200000000000000000010',
+    ],
   },
   Factories: {
     '0xa5bf2ddf098bb0ef6d120c98217dd6b141c74ee0': 'oracleWeightedPool',
@@ -131,6 +134,7 @@ const POOLS_GOERLI: Pools = {
   },
   Stakable: {
     AllowList: [
+      '0x93f06afc4d63bcf5a327d9390410c192f1c5ca69000200000000000000000010',
       '0x16faf9f73748013155b7bc116a3008b57332d1e600020000000000000000005b',
       '0x13acd41c585d7ebb4a9460f7c8f50be60dc080cd00000000000000000000005f',
       '0xdcdd4a3d36dec8d57594e89763d069a7e9b223e2000000000000000000000062',
