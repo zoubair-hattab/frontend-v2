@@ -105,7 +105,6 @@ const POOLS_GOERLI: Pools = {
   ExcludedPoolTypes: ['Element', 'AaveLinear', 'Linear', 'ERC4626Linear', 'FX'],
   Stable: {
     AllowList: [
-      '0xa50f9aeedf10ab0b8372278135dc33fc5e179f3d00020000000000000000000e',
       '0x13acd41c585d7ebb4a9460f7c8f50be60dc080cd00000000000000000000005f',
       '0xb60e46d90f2de35f7062a27d3a98749414036d5d000200000000000000000061',
       '0xdcdd4a3d36dec8d57594e89763d069a7e9b223e2000000000000000000000062',
@@ -123,7 +122,7 @@ const POOLS_GOERLI: Pools = {
     '0xa5bf2ddf098bb0ef6d120c98217dd6b141c74ee0': 'oracleWeightedPool',
     '0x6A3e19d1060511b6a720a171d606DFD2Ed0Dcc4C': 'weightedPool',
     '0xc3F47C0eA2198E7f17Be8822c52E5b458e724596': 'stablePool',
-    '0xa55f73e2281c60206ba43a3590db07b8955832be': 'stablePool', // Metastable
+    '0x13F2D010c8D842db98b391e6Fa46BE372F85DD97': 'stablePool', // Metastable
     '0xb48cc42c45d262534e46d5965a9ac496f1b7a830': 'liquidityBootstrappingPool',
     '0xb0c726778c3ae4b3454d85557a48e8fa502bdd6a': 'liquidityBootstrappingPool', // LBP (zero protocol fee)
     '0x41e9036ae350baedcc7107760a020dca3c0731ec': 'boostedPool',
@@ -132,7 +131,6 @@ const POOLS_GOERLI: Pools = {
   },
   Stakable: {
     AllowList: [
-      '0xa50f9aeedf10ab0b8372278135dc33fc5e179f3d00020000000000000000000e'
       '0x16faf9f73748013155b7bc116a3008b57332d1e600020000000000000000005b',
       '0x13acd41c585d7ebb4a9460f7c8f50be60dc080cd00000000000000000000005f',
       '0xdcdd4a3d36dec8d57594e89763d069a7e9b223e2000000000000000000000062',
@@ -140,7 +138,10 @@ const POOLS_GOERLI: Pools = {
     ],
   },
   Metadata: {
-
+    '0x13acd41c585d7ebb4a9460f7c8f50be60dc080cd00000000000000000000005f': {
+      name: 'Balancer Boosted Aave USD',
+      hasIcon: false,
+    },
   },
 };
 
@@ -176,7 +177,6 @@ const POOLS_MAINNET: Pools = {
   ],
   Stable: {
     AllowList: [
-      '0xa50f9aeedf10ab0b8372278135dc33fc5e179f3d00020000000000000000000e',
       '0x06df3b2bbb68adc8b0e302443692037ed9f91b42000000000000000000000063', // staBAL3 (DAI-USD-USDC)
       '0xfeadd389a5c427952d8fdb8057d6c8ba1156cc56000000000000000000000066', // WBTC-renBTC-sBTC
       '0x9f19a375709baf0e8e35c2c5c65aca676c4c719100000000000000000000006e', // PAR-sEUR-EURS
@@ -218,7 +218,6 @@ const POOLS_MAINNET: Pools = {
   },
   Stakable: {
     AllowList: [
-      '0xa50f9aeedf10ab0b8372278135dc33fc5e179f3d00020000000000000000000e',
       '0x06df3b2bbb68adc8b0e302443692037ed9f91b42000000000000000000000063',
       '0x072f14b85add63488ddad88f855fda4a99d6ac9b000200000000000000000027',
       '0x0b09dea16768f0799065c475be02919503cb2a3500020000000000000000001a',
