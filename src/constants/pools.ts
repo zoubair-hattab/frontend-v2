@@ -82,19 +82,19 @@ export type Pools = {
 const POOLS_GOERLI: Pools = {
   IdsMap: {
     staBAL:
-      '',
+      '0xdcdd4a3d36dec8d57594e89763d069a7e9b223e2000000000000000000000062',
     bbAaveUSD: {
-      v1: '',
-      v2: '',
+      v1: '0x13acd41c585d7ebb4a9460f7c8f50be60dc080cd00000000000000000000005f',
+      v2: '0x3d5981bdd8d3e49eb7bbdc1d2b156a3ee019c18e0000000000000000000001a7',
     },
-    veBAL: '',
+    veBAL: '0xf8a0623ab66f985effc1c69d05f1af4badb01b00000200000000000000000060',
   },
   Pagination: {
     PerPage: 10,
     PerPool: 10,
     PerPoolInitial: 5,
   },
-  DelegateOwner: '',
+  DelegateOwner: '0xba1ba1ba1ba1ba1ba1ba1ba1ba1ba1ba1ba1ba1b',
   ZeroAddress: '0x0000000000000000000000000000000000000000',
   DynamicFees: {
     Gauntlet: [],
@@ -105,35 +105,22 @@ const POOLS_GOERLI: Pools = {
   ExcludedPoolTypes: ['Element', 'AaveLinear', 'Linear', 'ERC4626Linear', 'FX'],
   Stable: {
     AllowList: [
-
+ 
     ],
   },
   Investment: {
     AllowList: [],
   },
   Factories: {
-     '': 'weightedPool', // Arbitrum Weighted
-    '': 'weightedPool', // Arbitrum WeightedOracle
-    '': 'stablePool', // Arbitrum Stable
-    '': 'stablePool', // Arbitrum MetaStable
-    '': 'liquidityBootstrappingPool', // Arbitrum LBP (old)
-    '0x1802953277fd955f9a254b80aa0582f193cf1d77': 'liquidityBootstrappingPool', // Arbitrum LBP (new)
-    '': 'managedPool', // arbitrum managed
-    '': 'boostedPool', // arbitrum stablephantom
-    '': 'stablePool', // stable pool v2
-    '': 'composableStablePool', // ComposableStable
-    '': 'weightedPool', // weighted pool v2
+    
   },
   Stakable: {
     AllowList: [
-   
+
     ],
   },
   Metadata: {
-    '': {
-      name: 'Balancer Boosted Aave USD',
-      hasIcon: false,
-    },
+
   },
 };
 
@@ -577,6 +564,4 @@ const POOLS_MAP = {
   [Network.ARBITRUM]: POOLS_ARBITRUM,
 };
 
-export const POOLS: Pools = POOLS_MAP[networkId.value]
-  ? POOLS_MAP[networkId.value]
-  : POOLS_GENERIC;
+export const POOLS: Pools = POOLS_MAP[networkId.value]&&POOLS_MAP[networkId.value]
