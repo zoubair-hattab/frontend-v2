@@ -1,4 +1,3 @@
-
 {
   "key": "5",
   "chainId": 5,
@@ -35,30 +34,31 @@
     "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/logo.png",
     "minTransactionBuffer": "0.05"
   },
+
   "addresses": {
     "merkleRedeem": "",
-    "merkleOrchard": "0x35b50C7955e7D0E8298e043C9F4dCDef737b9f5a",
+    "merkleOrchard": "0x3B964308C2cE35728a670541808b42EBf23e4df0",
     "multicall": "0x5BA1e12693Dc8F9c48aAD8770482f4739bEeD696",
-    "authorizer": "0xA331D84eC860Bf466b4CdCcFb4aC09a1B43F3aE6",
-    "vault": "0xBA12222222228d8Ba445958a75a0704d566BF2C8",
-    "weightedPoolFactory": "0x8E9aa87E45e92bad84D5F8DD1bff34Fb92637dE9",
-    "stablePoolFactory": "0x44afeb87c871D8fEA9398a026DeA2BD3A13F5769",
+    "authorizer": "0x92c80d53aDe25dB334e84EaFbb7E9199f99Fa22e",
+    "vault": "0x12742E19C488E5743C0b227177B04b650F7B2A35",
+    "weightedPoolFactory": "0x6A3e19d1060511b6a720a171d606DFD2Ed0Dcc4C",
+    "stablePoolFactory": "0xc3F47C0eA2198E7f17Be8822c52E5b458e724596",
     "weth": "0xdFCeA9088c8A88A76FF74892C1457C17dfeef9C1",
     "stETH": "0x1643E812aE58766192Cf7D2Cf9567dF2C37e9B7F",
     "wstETH": "0x6320cD32aA674d2898A68ec82e869385Fc5f7E2f",
-    "lidoRelayer": "0xdc10e8f47B6858E32218E01db224795235872B19",
-    "balancerHelpers": "0x5aDDCCa35b7A0D07C74063c48700C8590E87864E",
-    "batchRelayer": "0x7b9B6f094DC2Bd1c12024b0D9CC63d6993Be1888",
+    "lidoRelayer": "0xAD37FaC08d1A777922e0BE1eD326e29855F30dd4",
+    "balancerHelpers": "0x4513190E57dC2706Ee8D46153580392cd76B5915",
+    "batchRelayer": "0x3F23939F72e3905eB2d9B0E9E02A9Dd4cD20d0B5",
     "gaugeFactory": "",
-    "balancerMinter": "",
-    "gaugeController": "",
-    "tokenAdmin": "",
-    "veBAL": "",
-    "veDelegationProxy": "",
-    "veBALHelpers": "",
+    "balancerMinter": "0x81ED8C151231a05286A299CB196Ec5Fa08e22766",
+    "gaugeController": "0xB1C0A33Cf4C21b9Bfc438d08125346E1eCc04488",
+    "tokenAdmin": "0x91deb0056294C18a58881C372c19F80ce2f9f062",
+    "veBAL": "0xcA86Eb976372dcf494cEB6f3A944eE83b7275f2e",
+    "veDelegationProxy": "0x1C4B453Dc20730B1ba18EEa9B1D92947464E7913",
+    "veBALHelpers": "0xA32c826fDc9394De6e343E9Ff064b70389db9c13",
     "feeDistributor": "",
     "feeDistributorDeprecated": "",
-    "faucet": ""
+    "faucet": "0xccb0F4Cf5D3F97f4a55bb5f5cA321C3ED033f244"
   },
   "keys": {
     "infura": "daaa68ec242643719749dd1caba2fc66",
@@ -83,4 +83,3 @@
     "weight": 100
   }
 }
-
