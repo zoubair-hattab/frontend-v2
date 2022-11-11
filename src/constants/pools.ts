@@ -82,19 +82,19 @@ export type Pools = {
 const POOLS_GOERLI: Pools = {
   IdsMap: {
     staBAL:
-      '0xdcdd4a3d36dec8d57594e89763d069a7e9b223e2000000000000000000000062',
+      '',
     bbAaveUSD: {
-      v1: '0x13acd41c585d7ebb4a9460f7c8f50be60dc080cd00000000000000000000005f',
-      v2: '0x3d5981bdd8d3e49eb7bbdc1d2b156a3ee019c18e0000000000000000000001a7',
+      v1: '',
+      v2: '',
     },
-    veBAL: '0xf8a0623ab66f985effc1c69d05f1af4badb01b00000200000000000000000060',
+    veBAL: '',
   },
   Pagination: {
     PerPage: 10,
     PerPool: 10,
     PerPoolInitial: 5,
   },
-  DelegateOwner: '0xba1ba1ba1ba1ba1ba1ba1ba1ba1ba1ba1ba1ba1b',
+  DelegateOwner: '',
   ZeroAddress: '0x0000000000000000000000000000000000000000',
   DynamicFees: {
     Gauntlet: [],
@@ -112,17 +112,17 @@ const POOLS_GOERLI: Pools = {
     AllowList: [],
   },
   Factories: {
-     '0x7dfdef5f355096603419239ce743bfaf1120312b': 'weightedPool', // Arbitrum Weighted
-    '0xcf0a32bbef8f064969f21f7e02328fb577382018': 'weightedPool', // Arbitrum WeightedOracle
-    '0x2433477a10fc5d31b9513c638f19ee85caed53fd': 'stablePool', // Arbitrum Stable
-    '0xebfd5681977e38af65a7487dc70b8221d089ccad': 'stablePool', // Arbitrum MetaStable
-    '0x142b9666a0a3a30477b052962dda81547e7029ab': 'liquidityBootstrappingPool', // Arbitrum LBP (old)
+     '': 'weightedPool', // Arbitrum Weighted
+    '': 'weightedPool', // Arbitrum WeightedOracle
+    '': 'stablePool', // Arbitrum Stable
+    '': 'stablePool', // Arbitrum MetaStable
+    '': 'liquidityBootstrappingPool', // Arbitrum LBP (old)
     '0x1802953277fd955f9a254b80aa0582f193cf1d77': 'liquidityBootstrappingPool', // Arbitrum LBP (new)
-    '0xacd615b3705b9c880e4e7293f1030b34e57b4c1c': 'managedPool', // arbitrum managed
-    '0xdae7e32adc5d490a43ccba1f0c736033f2b4efca': 'boostedPool', // arbitrum stablephantom
-    '0xef44d6786b2b4d544b7850fe67ce6381626bf2d6': 'stablePool', // stable pool v2
-    '0xaeb406b0e430bf5ea2dc0b9fe62e4e53f74b3a33': 'composableStablePool', // ComposableStable
-    '0x8df6efec5547e31b0eb7d1291b511ff8a2bf987c': 'weightedPool', // weighted pool v2
+    '': 'managedPool', // arbitrum managed
+    '': 'boostedPool', // arbitrum stablephantom
+    '': 'stablePool', // stable pool v2
+    '': 'composableStablePool', // ComposableStable
+    '': 'weightedPool', // weighted pool v2
   },
   Stakable: {
     AllowList: [
@@ -130,7 +130,7 @@ const POOLS_GOERLI: Pools = {
     ],
   },
   Metadata: {
-    '0x13acd41c585d7ebb4a9460f7c8f50be60dc080cd00000000000000000000005f': {
+    '': {
       name: 'Balancer Boosted Aave USD',
       hasIcon: false,
     },
