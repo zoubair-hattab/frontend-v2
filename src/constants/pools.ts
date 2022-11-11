@@ -105,29 +105,32 @@ const POOLS_GOERLI: Pools = {
   ExcludedPoolTypes: ['Element', 'AaveLinear', 'Linear', 'ERC4626Linear', 'FX'],
   Stable: {
     AllowList: [
-     
+
     ],
   },
   Investment: {
     AllowList: [],
   },
   Factories: {
-    '0xa5bf2ddf098bb0ef6d120c98217dd6b141c74ee0': 'oracleWeightedPool',
-    '0x6A3e19d1060511b6a720a171d606DFD2Ed0Dcc4C': 'weightedPool',
-    '0xc3F47C0eA2198E7f17Be8822c52E5b458e724596': 'stablePool',
-    '0x67d27634e44793fe63c467035e31ea8635117cd4': 'stablePool', // Metastable
-    '0xb48cc42c45d262534e46d5965a9ac496f1b7a830': 'liquidityBootstrappingPool',
-    '0xb0c726778c3ae4b3454d85557a48e8fa502bdd6a': 'liquidityBootstrappingPool', // LBP (zero protocol fee)
-    '0x41e9036ae350baedcc7107760a020dca3c0731ec': 'boostedPool',
-    '0xb848f50141f3d4255b37ac288c25c109104f2158': 'composableStablePool',
-    '0x94f68b54191f62f781fe8298a8a5fa3ed772d227': 'weightedPool', // weighted pool v2
+     '0x7dfdef5f355096603419239ce743bfaf1120312b': 'weightedPool', // Arbitrum Weighted
+    '0xcf0a32bbef8f064969f21f7e02328fb577382018': 'weightedPool', // Arbitrum WeightedOracle
+    '0x2433477a10fc5d31b9513c638f19ee85caed53fd': 'stablePool', // Arbitrum Stable
+    '0xebfd5681977e38af65a7487dc70b8221d089ccad': 'stablePool', // Arbitrum MetaStable
+    '0x142b9666a0a3a30477b052962dda81547e7029ab': 'liquidityBootstrappingPool', // Arbitrum LBP (old)
+    '0x1802953277fd955f9a254b80aa0582f193cf1d77': 'liquidityBootstrappingPool', // Arbitrum LBP (new)
+    '0xacd615b3705b9c880e4e7293f1030b34e57b4c1c': 'managedPool', // arbitrum managed
+    '0xdae7e32adc5d490a43ccba1f0c736033f2b4efca': 'boostedPool', // arbitrum stablephantom
+    '0xef44d6786b2b4d544b7850fe67ce6381626bf2d6': 'stablePool', // stable pool v2
+    '0xaeb406b0e430bf5ea2dc0b9fe62e4e53f74b3a33': 'composableStablePool', // ComposableStable
+    '0x8df6efec5547e31b0eb7d1291b511ff8a2bf987c': 'weightedPool', // weighted pool v2
   },
   Stakable: {
     AllowList: [
-         ],
+   
+    ],
   },
   Metadata: {
-    '0x7b50775383d3d6f0215a8f290f2c9e2eebbeceb20000000000000000000000fe': {
+    '0x13acd41c585d7ebb4a9460f7c8f50be60dc080cd00000000000000000000005f': {
       name: 'Balancer Boosted Aave USD',
       hasIcon: false,
     },
