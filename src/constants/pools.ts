@@ -105,14 +105,7 @@ const POOLS_GOERLI: Pools = {
   ExcludedPoolTypes: ['Element', 'AaveLinear', 'Linear', 'ERC4626Linear', 'FX'],
   Stable: {
     AllowList: [
-      '0x13acd41c585d7ebb4a9460f7c8f50be60dc080cd00000000000000000000005f',
-      '0xb60e46d90f2de35f7062a27d3a98749414036d5d000200000000000000000061',
-      '0xdcdd4a3d36dec8d57594e89763d069a7e9b223e2000000000000000000000062',
-      '0xc957b1acceb21707b782eb8eee2ed8e20088463d000200000000000000000076',
-      '0x3d5981bdd8d3e49eb7bbdc1d2b156a3ee019c18e0000000000000000000001a7',
-      '0x14f93df8a4e37bfdb49d2cec4789df7a010603d700000000000000000000011d',
-      '0x00a62d31b6c776b6813543bc99ff265f7222dbe100000000000000000000011e',
-      '0x0c925fce89a22e36ebd9b3c6e0262234e853d2f600000000000000000000019c',
+     
     ],
   },
   Investment: {
@@ -120,8 +113,8 @@ const POOLS_GOERLI: Pools = {
   },
   Factories: {
     '0xa5bf2ddf098bb0ef6d120c98217dd6b141c74ee0': 'oracleWeightedPool',
-    '0x8e9aa87e45e92bad84d5f8dd1bff34fb92637de9': 'weightedPool',
-    '0x44afeb87c871d8fea9398a026dea2bd3a13f5769': 'stablePool',
+    '0x6A3e19d1060511b6a720a171d606DFD2Ed0Dcc4C': 'weightedPool',
+    '0xc3F47C0eA2198E7f17Be8822c52E5b458e724596': 'stablePool',
     '0xa55f73e2281c60206ba43a3590db07b8955832be': 'stablePool', // Metastable
     '0xb48cc42c45d262534e46d5965a9ac496f1b7a830': 'liquidityBootstrappingPool',
     '0xb0c726778c3ae4b3454d85557a48e8fa502bdd6a': 'liquidityBootstrappingPool', // LBP (zero protocol fee)
