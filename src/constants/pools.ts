@@ -82,12 +82,12 @@ export type Pools = {
 const POOLS_GOERLI: Pools = {
   IdsMap: {
     staBAL:
-      '0x4f29778e73aa0fb4fd266c7a50cb8d8bde713f5e000200000000000000000003',
+      '0xdcdd4a3d36dec8d57594e89763d069a7e9b223e2000000000000000000000062',
     bbAaveUSD: {
-      v1: '0x4f29778e73aa0fb4fd266c7a50cb8d8bde713f5e000200000000000000000003',
-      v2: '0x4f29778e73aa0fb4fd266c7a50cb8d8bde713f5e000200000000000000000003',
+      v1: '0x13acd41c585d7ebb4a9460f7c8f50be60dc080cd00000000000000000000005f',
+      v2: '0x3d5981bdd8d3e49eb7bbdc1d2b156a3ee019c18e0000000000000000000001a7',
     },
-    veBAL: '0x4f29778e73aa0fb4fd266c7a50cb8d8bde713f5e000200000000000000000003',
+    veBAL: '0xf8a0623ab66f985effc1c69d05f1af4badb01b00000200000000000000000060',
   },
   Pagination: {
     PerPage: 10,
@@ -100,38 +100,46 @@ const POOLS_GOERLI: Pools = {
     Gauntlet: [],
   },
   BlockList: [
-    '0x4f29778e73aa0fb4fd266c7a50cb8d8bde713f5e000200000000000000000003',
+    '0x22d398c68030ef6b1c55321cca6e0cecc5c93b2f000200000000000000000678',
   ],
   ExcludedPoolTypes: ['Element', 'AaveLinear', 'Linear', 'ERC4626Linear', 'FX'],
   Stable: {
     AllowList: [
-      '0x4f29778e73aa0fb4fd266c7a50cb8d8bde713f5e000200000000000000000003',
-    
+      '0x13acd41c585d7ebb4a9460f7c8f50be60dc080cd00000000000000000000005f',
+      '0xb60e46d90f2de35f7062a27d3a98749414036d5d000200000000000000000061',
+      '0xdcdd4a3d36dec8d57594e89763d069a7e9b223e2000000000000000000000062',
+      '0xc957b1acceb21707b782eb8eee2ed8e20088463d000200000000000000000076',
+      '0x3d5981bdd8d3e49eb7bbdc1d2b156a3ee019c18e0000000000000000000001a7',
+      '0x14f93df8a4e37bfdb49d2cec4789df7a010603d700000000000000000000011d',
+      '0x00a62d31b6c776b6813543bc99ff265f7222dbe100000000000000000000011e',
+      '0x0c925fce89a22e36ebd9b3c6e0262234e853d2f600000000000000000000019c',
     ],
   },
   Investment: {
     AllowList: [],
   },
   Factories: {
-    '0xa5bf2ddf098bb0ef6d120c98217dd6b141c74ee0': 'oracleWeightedPool',
-    '0x10Ff5b2Fd801ac483B2D0E28E2cF3C6C9158C770': 'weightedPool',
-    '0x44afeb87c871d8fea9398a026dea2bd3a13f5769': 'stablePool',
-    '0x55104B3088ffB7d6C23e135744374c58624f813a': 'stablePool', // Metastable
-    '0xb48cc42c45d262534e46d5965a9ac496f1b7a830': 'liquidityBootstrappingPool',
-    '0xb0c726778c3ae4b3454d85557a48e8fa502bdd6a': 'liquidityBootstrappingPool', // LBP (zero protocol fee)
-    '0x41e9036ae350baedcc7107760a020dca3c0731ec': 'boostedPool',
-    '0xb848f50141f3d4255b37ac288c25c109104f2158': 'composableStablePool',
-    '0x94f68b54191f62f781fe8298a8a5fa3ed772d227': 'weightedPool', // weighted pool v2
+    '0xba1ba1ba1ba1ba1ba1ba1ba1ba1ba1ba1ba1ba1b': 'oracleWeightedPool',
+    '0xba1ba1ba1ba1ba1ba1ba1ba1ba1ba1ba1ba1ba1b': 'weightedPool',
+    '0xba1ba1ba1ba1ba1ba1ba1ba1ba1ba1ba1ba1ba1b': 'stablePool',
+    '0xba1ba1ba1ba1ba1ba1ba1ba1ba1ba1ba1ba1ba1b': 'stablePool', // Metastable
+    '0xba1ba1ba1ba1ba1ba1ba1ba1ba1ba1ba1ba1ba1b': 'liquidityBootstrappingPool',
+    '0xba1ba1ba1ba1ba1ba1ba1ba1ba1ba1ba1ba1ba1b': 'liquidityBootstrappingPool', // LBP (zero protocol fee)
+    '0xba1ba1ba1ba1ba1ba1ba1ba1ba1ba1ba1ba1ba1b': 'boostedPool',
+    '0xba1ba1ba1ba1ba1ba1ba1ba1ba1ba1ba1ba1ba1b': 'composableStablePool',
+    '0xba1ba1ba1ba1ba1ba1ba1ba1ba1ba1ba1ba1ba1b': 'weightedPool', // weighted pool v2
   },
   Stakable: {
     AllowList: [
-      '0x4f29778e73aa0fb4fd266c7a50cb8d8bde713f5e000200000000000000000003',
- 
+      '0x16faf9f73748013155b7bc116a3008b57332d1e600020000000000000000005b',
+      '0x13acd41c585d7ebb4a9460f7c8f50be60dc080cd00000000000000000000005f',
+      '0xdcdd4a3d36dec8d57594e89763d069a7e9b223e2000000000000000000000062',
+      '0x67f8fcb9d3c463da05de1392efdbb2a87f8599ea000200000000000000000059',
     ],
   },
   Metadata: {
-    '0x4f29778e73aa0fb4fd266c7a50cb8d8bde713f5e000200000000000000000003': {
-      name: 'Dai to Weth',
+    '0x13acd41c585d7ebb4a9460f7c8f50be60dc080cd00000000000000000000005f': {
+      name: 'Balancer Boosted Aave USD',
       hasIcon: false,
     },
   },
@@ -199,7 +207,7 @@ const POOLS_MAINNET: Pools = {
     '0xa5bf2ddf098bb0ef6d120c98217dd6b141c74ee0': 'oracleWeightedPool',
     '0x8e9aa87e45e92bad84d5f8dd1bff34fb92637de9': 'weightedPool',
     '0xc66ba2b6595d3613ccab350c886ace23866ede24': 'stablePool',
-    '0x55104B3088ffB7d6C23e135744374c58624f813a': 'stablePool', // Metastable
+    '0x67d27634e44793fe63c467035e31ea8635117cd4': 'stablePool', // Metastable
     '0x751a0bc0e3f75b38e01cf25bfce7ff36de1c87de': 'liquidityBootstrappingPool', // Mainnet LBP
     '0x0f3e0c4218b7b0108a3643cfe9d3ec0d4f57c54e': 'liquidityBootstrappingPool', // Mainnet LBP (zero protocol fee)
     '0x48767f9f868a4a7b86a90736632f6e44c2df7fa9': 'managedPool', // Mainnet Managed
