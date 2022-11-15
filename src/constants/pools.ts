@@ -120,14 +120,14 @@ const POOLS_GOERLI: Pools = {
   },
   Factories: {
     '0xba1ba1ba1ba1ba1ba1ba1ba1ba1ba1ba1ba1ba1b': 'oracleWeightedPool',
-    '0xba1ba1ba1ba1ba1ba1ba1ba1ba1ba1ba1ba1ba1b': 'weightedPool',
-    '0xba1ba1ba1ba1ba1ba1ba1ba1ba1ba1ba1ba1ba1b': 'stablePool',
-    '0xba1ba1ba1ba1ba1ba1ba1ba1ba1ba1ba1ba1ba1b': 'stablePool', // Metastable
-    '0xba1ba1ba1ba1ba1ba1ba1ba1ba1ba1ba1ba1ba1b': 'liquidityBootstrappingPool',
-    '0xba1ba1ba1ba1ba1ba1ba1ba1ba1ba1ba1ba1ba1b': 'liquidityBootstrappingPool', // LBP (zero protocol fee)
-    '0xba1ba1ba1ba1ba1ba1ba1ba1ba1ba1ba1ba1ba1b': 'boostedPool',
-    '0xba1ba1ba1ba1ba1ba1ba1ba1ba1ba1ba1ba1ba1b': 'composableStablePool',
-    '0xba1ba1ba1ba1ba1ba1ba1ba1ba1ba1ba1ba1ba1b': 'weightedPool', // weighted pool v2
+    '0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE': 'weightedPool',
+    '0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEea': 'stablePool',
+    '0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeb': 'stablePool', // Metastable
+    '0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEe5': 'liquidityBootstrappingPool',
+    '0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEe7': 'liquidityBootstrappingPool', // LBP (zero protocol fee)
+    '0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEe2': 'boostedPool',
+    '0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEe9': 'composableStablePool',
+    '0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEa7': 'weightedPool', // weighted pool v2
   },
   Stakable: {
     AllowList: [
