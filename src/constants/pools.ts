@@ -82,12 +82,12 @@ export type Pools = {
 const POOLS_GOERLI: Pools = {
   IdsMap: {
     staBAL:
-      '0xdcdd4a3d36dec8d57594e89763d069a7e9b223e2000000000000000000000062',
+      '0x4f29778e73aa0fb4fd266c7a50cb8d8bde713f5e000200000000000000000003',
     bbAaveUSD: {
-      v1: '0x13acd41c585d7ebb4a9460f7c8f50be60dc080cd00000000000000000000005f',
-      v2: '0x3d5981bdd8d3e49eb7bbdc1d2b156a3ee019c18e0000000000000000000001a7',
+      v1: '0x4f29778e73aa0fb4fd266c7a50cb8d8bde713f5e000200000000000000000003',
+      v2: '0x4f29778e73aa0fb4fd266c7a50cb8d8bde713f5e000200000000000000000003',
     },
-    veBAL: '0xf8a0623ab66f985effc1c69d05f1af4badb01b00000200000000000000000060',
+    veBAL: '0x4f29778e73aa0fb4fd266c7a50cb8d8bde713f5e000200000000000000000003',
   },
   Pagination: {
     PerPage: 10,
@@ -100,7 +100,7 @@ const POOLS_GOERLI: Pools = {
     Gauntlet: [],
   },
   BlockList: [
-    '0x22d398c68030ef6b1c55321cca6e0cecc5c93b2f000200000000000000000678',
+    '0x4f29778e73aa0fb4fd266c7a50cb8d8bde713f5e000200000000000000000003',
   ],
   ExcludedPoolTypes: ['Element', 'AaveLinear', 'Linear', 'ERC4626Linear', 'FX'],
   Stable: {
