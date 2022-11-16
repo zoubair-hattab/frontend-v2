@@ -74,7 +74,7 @@ export const TOKENS_GOERLI: TokenConstants = {
     nativeAsset: '0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE',
     wNativeAsset: '0xdFCeA9088c8A88A76FF74892C1457C17dfeef9C1',
     WETH: '0xdFCeA9088c8A88A76FF74892C1457C17dfeef9C1',
-    BAL: '0xC3867CE616dc07352DB7edf05e74d025005297E2',
+    BAL: '0xfA8449189744799aD2AcE7e0EBAC8BB7575eff47',
   },
   PriceChainMap: {
     /**
