@@ -37,9 +37,8 @@ export const TOKENS_MAINNET: TokenConstants = {
     nativeAsset: '0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE',
     wNativeAsset: '0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2',
     WETH: '0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2',
-    BAL: '0xba100000625a3754423978a60c9317c58a424e3d',
-    bbaUSD: '0x7B50775383d3D6f0215A8F290f2C9e2eEBBEceb2',
-    bbaUSDv2: '0xA13a9247ea42D743238089903570127DdA72fE44',
+    BAL: '0xC3867CE616dc07352DB7edf05e74d025005297E2',
+
   },
 };
 
@@ -51,7 +50,7 @@ export const TOKENS_POLYGON: TokenConstants = {
     nativeAsset: '0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE',
     wNativeAsset: '0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270',
     WETH: '0x7ceb23fd6bc0add59e62ac25578270cff1b9f619',
-    BAL: '0x9a71012b13ca4d3d0cdc72a177df3ef03b0e76a3',
+    BAL: '0xC3867CE616dc07352DB7edf05e74d025005297E2',
   },
 };
 
@@ -75,8 +74,7 @@ export const TOKENS_GOERLI: TokenConstants = {
     nativeAsset: '0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE',
     wNativeAsset: '0xdFCeA9088c8A88A76FF74892C1457C17dfeef9C1',
     WETH: '0xdFCeA9088c8A88A76FF74892C1457C17dfeef9C1',
-    BAL: '0xfA8449189744799aD2AcE7e0EBAC8BB7575eff47',
-    bbaUSD: '0x13ACD41C585d7EbB4a9460f7C8f50BE60DC080Cd',
+    BAL: '0xC3867CE616dc07352DB7edf05e74d025005297E2',
   },
   PriceChainMap: {
     /**
@@ -116,7 +114,7 @@ export const TOKENS_GENERIC: TokenConstants = {
     nativeAsset: '0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE',
     wNativeAsset: '0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE',
     WETH: '0x0000000000000000000000000000000000000000',
-    BAL: '0x0000000000000000000000000000000000000000',
+    BAL: '0xC3867CE616dc07352DB7edf05e74d025005297E2',
   },
 };
 
