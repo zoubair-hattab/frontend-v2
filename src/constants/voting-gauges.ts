@@ -30,4 +30,4 @@ export const MAINNET_VOTING_GAUGES: VotingGauge[] = (
 
 export const VEBAL_VOTING_GAUGE: VotingGauge | undefined = (
   ALL_VOTING_GAUGES as VotingGauge[]
-).find(gauge => gauge.pool.symbol === 'veBAL');
+).find(gauge => gauge.pool.symbol === '');
